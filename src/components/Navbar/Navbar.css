@@ -1,0 +1,148 @@
+.navbar {
+  color: white;
+  width: 100%;
+  height: 70px;
+  padding: 2px;
+  background-color: rgb(9, 71, 71);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.navbar2 {
+  width: 99.79%;
+  height: 70px;
+  padding: 2px;
+  background-color: rgb(9, 71, 71);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h2 {
+  color: rgb(223, 233, 233);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin-left: 300px;
+}
+
+/*.navbar2 .leftSide2 {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-family: serif;
+}*/
+
+.navbar .leftSide {
+  flex: 46%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  font-family: serif;
+}
+
+.leftSide h1 {
+  font-size: 30px;
+}
+
+.navbar .rightSide {
+  flex: 34%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-family: serif;
+}
+
+.navbar .rightSide a:hover {
+  text-decoration: underline;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: solid;
+  margin: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .rightSide svg {
+  font-size: 40px;
+}
+
+.navbar #open img {
+  display: none;
+}
+
+.navbar #close img {
+  display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar .rightSide a {
+    width: 70px;
+  }
+
+  .navbar .leftSide {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
+
+  .navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .navbar .rightSide button {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  .hiddenLinks {
+    display: none;
+  }
+}
+
+.rightSide .nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.rightSide .nav-link .nav-icon {
+  font-size: larger;
+  padding: 5px;
+}

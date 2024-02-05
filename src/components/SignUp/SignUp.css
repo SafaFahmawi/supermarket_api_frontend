@@ -1,0 +1,117 @@
+/*.signup-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}*/
+
+.signupp {
+  color: white;
+  max-width: 350px;
+  height: 360px;
+  margin: 45px auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgb(9, 71, 71);
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(45, 89, 62, 0.601);
+}
+
+.signupp h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.signupp input {
+  width: 90%;
+  margin-top: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.signup-butt{
+  font-weight: bold;
+  background-color: #bce1c4;
+  color: rgb(6, 53, 53);;
+  border-radius: 5px;
+  border-color: aliceblue;
+  padding: 10px 20px;
+  margin-top: 15px;
+  margin-right: 0px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 145px;
+
+}
+
+.signupp button:hover {
+  background-color: rgb(229, 249, 10);
+  font-size: 14px;
+}
+
+.signup-container {
+  /* Your existing styles for the alert container */
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.eye-icon2 {
+  position: absolute;
+  margin-top: -38px;
+  margin-bottom: 30px;
+  margin-left: 325px;
+  cursor: pointer;
+  color: #0d382d;
+}
+
+.eye-icon {
+  position: absolute;
+  margin-top: -38px;
+  margin-bottom: 50px;
+  margin-left: 325px;
+  cursor: pointer;
+  color: #0d382d;
+}
+
+.icon {
+  position: absolute;
+  margin-top: 17px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+  margin-left: 10px;
+  font-size: small;
+  color: #0d382d;
+}
+
+.input-group .input {
+  padding-left: 25px;
+}
+
+.alert {
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.success {
+  /* Styles for success alerts */
+  color: #031508;
+  background-color: #90c99de5;
+  border: 1px solid #1c3b23;
+}
+
+.error {
+  /* Styles for error alerts */
+  color: #190406;
+  background-color: #e9a8ade2;
+  border: 1px solid #41191d;
+}
